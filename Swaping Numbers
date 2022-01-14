@@ -1,0 +1,29 @@
+#include<stdio.h>
+
+main()
+
+{
+
+int a;
+
+int b;
+
+printf("write the first number :");
+
+scanf("%d",&a );
+
+printf("write the second number :");
+
+scanf("%d",&b );
+
+int c=a;
+
+a=b;
+
+b=c;
+
+printf("Now the first number is : %d\n",a);
+
+printf("And the second number is : %d",b);
+
+}
