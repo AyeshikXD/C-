@@ -1,15 +1,13 @@
 #include<stdio.h>
 int main()
 {
-	int i,j,n=9,k;
-	for(i=1;i<=n;i++)
+	int i,j;
+	for(i=1;i<=6;i++)
 	{
-		if(i<=n/2)
+		for(j=1;j<=i;j++)
 		{
-			for(j=i;j<5;j++)
-			printf("*");
-		    printf("\n");
+		   printf("01");  
 		}
-		
+		printf("\n");
 	}
-		}
+}
